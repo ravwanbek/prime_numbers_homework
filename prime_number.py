@@ -9,10 +9,5 @@ def prime_number(n:int)->int:
     Returns:
         int: Number of prime numbers
     """
-    count = 0
-    for i in range(1, n):
-        if is_prime(i):
-            print(i)
-            count += 1
-    return count
-print(prime_number(10))
+
+    return 

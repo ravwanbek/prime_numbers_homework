@@ -8,10 +8,6 @@ def prime_list(n:int)->list:
     Returns:
         list: List of prime numbers
     """
-    prime_list = []
-    for i in range(1, n):
-        if is_prime(i):
-            prime_list.append(i)
-    return prime_list
+ 
+    return 
 
-print(prime_list(100))
