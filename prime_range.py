@@ -13,7 +13,7 @@ def prime_range(start:int, end:int)->list:
     """
     a=[]
     for i in range(start,end):
-        if is_prime :
+        if is_prime(i):
             a.append(i)
             
 
