@@ -1,4 +1,5 @@
 from is_prime import is_prime
+from prime_number import prime_number
 
 #Define function,Find list of prime numbers in a given range.
 def prime_range(start:int, end:int)->list:
@@ -10,7 +11,15 @@ def prime_range(start:int, end:int)->list:
     Returns:
         list: list of prime numbers in range
     """
- 
-    return 
+    a=[]
+    for i in range(start,end):
+        if is_prime :
+            a.append(i)
+            
+
+
+    return a
 
 #Test function.
+
+print(prime_range(10,100))
