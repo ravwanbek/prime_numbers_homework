@@ -9,5 +9,10 @@ def prime_number(n:int)->int:
     Returns:
         int: Number of prime numbers
     """
-
-    return 
+    s=0
+    for i in range(2,n):
+        if is_prime(i):
+            s+=1
+    
+    return s
+print(prime_number(100))
