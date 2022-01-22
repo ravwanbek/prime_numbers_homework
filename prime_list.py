@@ -8,11 +8,11 @@ def prime_list(n:int)->list:
     Returns:
         list: List of prime numbers
     """
-    
+    s=0
     for i in range(2,n):
         if is_prime(i):
-            print(i)
-    return i
+            s+=1
     
+    return s
 print(prime_list(100))
 
